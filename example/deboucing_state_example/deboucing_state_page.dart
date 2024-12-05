@@ -39,7 +39,8 @@ class _DeboucingStatePageState extends State<DeboucingStatePage> {
                     min: 0.0,
                     max: 100.0,
                     onChanged: (value) {
-                      _sliderValueManager.update(value, debounceDuration: Duration.zero);
+                      _sliderValueManager.update(value,
+                          debounceDuration: Duration.zero);
                     },
                   ),
                 ],

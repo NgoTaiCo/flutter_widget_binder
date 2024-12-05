@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_binder/examples/undoable_state_example/model/user.dart';
+import 'model/user.dart';
 import 'package:flutter_widget_binder/state_management/flutter_simple_state_manager.dart';
 
 class UndoableStatePage extends StatefulWidget {
@@ -34,7 +34,8 @@ class _UndoableStatePageState extends State<UndoableStatePage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text('Name: ${user.name}', style: const TextStyle(fontSize: 18)),
+                Text('Name: ${user.name}',
+                    style: const TextStyle(fontSize: 18)),
                 Text('Age: ${user.age}', style: const TextStyle(fontSize: 18)),
                 const SizedBox(height: 20),
                 ElevatedButton(

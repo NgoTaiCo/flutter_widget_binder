@@ -28,7 +28,8 @@ class _DummyPageAState extends State<DummyPageA> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () => _checkerNotifier.setValue(!_checkerNotifier.value),
+              onPressed: () =>
+                  _checkerNotifier.setValue(!_checkerNotifier.value),
               child: const Text('Reverse value from home page'),
             ),
             ElevatedButton(

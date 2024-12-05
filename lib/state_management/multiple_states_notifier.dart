@@ -40,7 +40,8 @@ class MultipleStatesNotifier<T> extends BaseStateNotifier<List<T>> {
   final List<BaseStateNotifier> _states;
 
   /// StreamController phát ra danh sách giá trị của các state.
-  final StreamController<List<T>> _combinedController = StreamController.broadcast();
+  final StreamController<List<T>> _combinedController =
+      StreamController.broadcast();
 
   /// Danh sách lưu trữ giá trị hiện tại của tất cả các state.
   late List<T> _currentValues;
@@ -56,7 +57,8 @@ class MultipleStatesNotifier<T> extends BaseStateNotifier<List<T>> {
     for (int i = 0; i < _states.length; i++) {
       _states[i].stream.listen((newValue) {
         _currentValues[i] = newValue; // Cập nhật giá trị mới.
-        _combinedController.add(_currentValues); // Notify danh sách giá trị hiện tại.
+        _combinedController
+            .add(_currentValues); // Notify danh sách giá trị hiện tại.
       });
     }
   }

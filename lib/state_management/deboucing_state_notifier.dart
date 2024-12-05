@@ -57,7 +57,8 @@ class DebounceStateNotifier<T> implements BaseStateNotifier<T> {
   ///
   /// Sau khi khoảng thời gian debounce trôi qua, giá trị mới sẽ được gán vào `_value`
   /// và phát tín hiệu (notify) đến các listeners qua `_controller`.
-  void update(T newValue, {Duration debounceDuration = const Duration(milliseconds: 300)}) {
+  void update(T newValue,
+      {Duration debounceDuration = const Duration(milliseconds: 300)}) {
     _debounceTimer?.cancel(); // Hủy Timer trước đó nếu tồn tại.
     _debounceTimer = Timer(debounceDuration, () {
       _value = newValue;

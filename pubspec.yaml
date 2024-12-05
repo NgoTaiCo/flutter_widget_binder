@@ -1,5 +1,5 @@
 name: flutter_widget_binder
-description: "flutter_widget_binder is a Flutter package designed for managing application states efficiently. The package provides various state management solutions, including simple state notifiers, asynchronous state notifiers, debounce functionality, undo/redo capabilities, and multiple state grouping. These tools help manage the state of your application in a modular and scalable way." 
+description: A Flutter package for efficient state management with notifiers, async states, debouncing, undo/redo, and multiple state grouping.
 version: 0.0.1+1
 repository: https://github.com/NgoTaiCo/flutter_widget_binder
 
