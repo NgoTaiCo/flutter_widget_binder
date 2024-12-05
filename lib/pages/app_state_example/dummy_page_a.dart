@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_binder/state_management/app_state.dart';
+import 'package:flutter_widget_binder/state_management/flutter_simple_state_manager.dart';
 
 class DummyPageA extends StatefulWidget {
   const DummyPageA({super.key});

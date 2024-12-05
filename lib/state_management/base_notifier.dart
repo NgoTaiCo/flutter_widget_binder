@@ -1,3 +1,5 @@
+part of 'flutter_simple_state_manager.dart';
+
 ///
 /// Ngô Tài Cơ - 05/12/2024
 ///

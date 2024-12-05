@@ -1,6 +1,4 @@
-import 'dart:async';
-
-import 'package:flutter_widget_binder/state_management/base_notifier.dart';
+part of 'flutter_simple_state_manager.dart';
 
 ///
 /// Ngô Tài Cơ - 05/12/2024

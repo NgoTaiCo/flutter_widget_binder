@@ -1,10 +1,11 @@
-import 'package:flutter_widget_binder/state_management/state_notifier.dart';
+part of 'flutter_simple_state_manager.dart';
 
 ///
 /// Ngô Tài Cơ - 5/12/24
 /// AppState là 1 biến toàn cục có thể truy cập ở bất kỳ đâu
 /// Lớp này hoạt động như 1 biến singleton
 ///
+
 class AppState {
   /// Khai báo biến static
   /// Biến này được định nghĩa là static và final, nghĩa là nó thuộc về class [AppState] và chỉ được khởi tạo một lần duy nhất.
