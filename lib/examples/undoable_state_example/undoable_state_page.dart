@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_binder/pages/undoable_state_example/model/user.dart';
+import 'package:flutter_widget_binder/examples/undoable_state_example/model/user.dart';
 import 'package:flutter_widget_binder/state_management/flutter_simple_state_manager.dart';
 
 class UndoableStatePage extends StatefulWidget {
